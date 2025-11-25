@@ -1,0 +1,62 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: My first collection
+meta:
+  id: wrk_1fc5917390d842fb8bb465ab6e806371
+  created: 1764102205864
+  modified: 1764102205864
+  description: ""
+collection:
+  - url: www.google.com
+    name: Google Call
+    meta:
+      id: req_68ff48d97396485d84725422dde1104d
+      created: 1764102205877
+      modified: 1764102280458
+      isPrivate: false
+      description: ""
+      sortKey: -1764102205877
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_b08e24548c01ececad9ebc83e5a5fc7100c4e9aa
+    created: 1764102205874
+    modified: 1764102269917
+  cookies:
+    - id: 3666faaa-db0a-4cb4-beaa-333cf396556a
+      key: AEC
+      value: AaJma5tqmOKjqnx4D2Q4YvsvPcEQY_2Q14lKdDVjS5f9isKePwSoUbfn7ss
+      domain: google.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: false
+    - id: 1c53a15c-9326-470c-b249-7388973e7697
+      key: NID
+      value: 526=pgKhMjw4usMVxAtUE7uiAQMJYj78LItnFq5aGbXrc0XK1nzDciH_RINA026iEnQBfPKNBz2xmI3_qQbGb4edx8fkSF4pLx-8eM5ro443ST3Yni0Ww5XFPjEeeEipRIK4Xxtz4oy2b6D9LWzmxSOu_6Z_G6IvAMvQAL_R_Ilhv-yXbDhy6drOg9Y1cpZGW_Vb_1AP-HYqc7_daeErFDE-z9WtMGEBTl6_y5yf
+      domain: google.com
+      path: /
+      secure: false
+      httpOnly: true
+      hostOnly: false
+environments:
+  name: Base Environment
+  meta:
+    id: env_b08e24548c01ececad9ebc83e5a5fc7100c4e9aa
+    created: 1764102205873
+    modified: 1764102205873
+    isPrivate: false
