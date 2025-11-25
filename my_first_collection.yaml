@@ -30,27 +30,66 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: facebook.com
+    name: Facebook Call
+    meta:
+      id: req_836b212b83054aaa878c5c8cdb4650ef
+      created: 1764103257330
+      modified: 1764103270187
+      isPrivate: false
+      description: ""
+      sortKey: -1764103257330
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.1.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
     id: jar_b08e24548c01ececad9ebc83e5a5fc7100c4e9aa
     created: 1764102205874
-    modified: 1764102269917
+    modified: 1764103272377
   cookies:
-    - id: 3666faaa-db0a-4cb4-beaa-333cf396556a
+    - id: 11e4ab12-e360-4f48-a159-391127c3cb93
       key: AEC
-      value: AaJma5tqmOKjqnx4D2Q4YvsvPcEQY_2Q14lKdDVjS5f9isKePwSoUbfn7ss
+      value: AaJma5vPSfj6S5cp8jCfvotKLnLHHzI_bdxXfqsF65eytWcEiKNL_eB9ow
       domain: google.com
       path: /
       secure: true
       httpOnly: true
       hostOnly: false
-    - id: 1c53a15c-9326-470c-b249-7388973e7697
+    - id: 589e9f60-374e-4968-9877-8da35f5db264
       key: NID
       value: 526=pgKhMjw4usMVxAtUE7uiAQMJYj78LItnFq5aGbXrc0XK1nzDciH_RINA026iEnQBfPKNBz2xmI3_qQbGb4edx8fkSF4pLx-8eM5ro443ST3Yni0Ww5XFPjEeeEipRIK4Xxtz4oy2b6D9LWzmxSOu_6Z_G6IvAMvQAL_R_Ilhv-yXbDhy6drOg9Y1cpZGW_Vb_1AP-HYqc7_daeErFDE-z9WtMGEBTl6_y5yf
       domain: google.com
       path: /
       secure: false
+      httpOnly: true
+      hostOnly: false
+    - id: af72361d-e407-4063-bf22-7a0538bb1df8
+      key: fr
+      value: 072h2F2wU2c0deHRA..BpJhRo..AAA.0.0.BpJhRo.AWemN021Jddo85-zQndfVbWL7yA
+      domain: facebook.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: false
+    - id: 88424f6c-1dd2-488a-ba32-0c5b3df240ef
+      key: sb
+      value: aBQmab0KpRss6L353OnQtgiP
+      domain: facebook.com
+      path: /
+      secure: true
       httpOnly: true
       hostOnly: false
 environments:
